@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Technische Universität Dresden",
+    "geokoordinaten": [51.02832, 13.72254],
+    "anzahl_studierenden": 30588,
+    "bsc": true,
+    "ba": true
+  },
+  {
+    "name": "Universität Leipzig",
+    "geokoordinaten": [51.3397, 12.3731],
+    "anzahl_studierenden": 31000,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Martin-Luther-Universität Halle-Wittenberg",
+    "geokoordinaten": [51.4869, 11.9695],
+    "anzahl_studierenden": 20770,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Friedrich-Schiller-Universität Jena",
+    "geokoordinaten": [50.9288, 11.5898],
+    "anzahl_studierenden": 17900,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Humboldt-Universität zu Berlin",
+    "geokoordinaten": [52.5186, 13.3777],
+    "anzahl_studierenden": 35000,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Universität Greifswald",
+    "geokoordinaten": [54.0934, 13.3873],
+    "anzahl_studierenden": 10360,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Universität Hamburg",
+    "geokoordinaten": [53.5678, 9.9846],
+    "anzahl_studierenden": 43587,
+    "bsc": true,
+    "ba": true
+  },
+  {
+    "name": "Christian-Albrechts-Universität zu Kiel",
+    "geokoordinaten": [54.3384, 10.1228],
+    "anzahl_studierenden": 27450,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Carl von Ossietzky Universität Oldenburg",
+    "geokoordinaten": [53.1439, 8.2133],
+    "anzahl_studierenden": 15600,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Universität Bremen",
+    "geokoordinaten": [53.1068, 8.8542],
+    "anzahl_studierenden": 19160,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Philipps-Universität Marburg",
+    "geokoordinaten": [50.8022, 8.7665],
+    "anzahl_studierenden": 22600,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Justus-Liebig-Universität Gießen",
+    "geokoordinaten": [50.5764, 8.6769],
+    "anzahl_studierenden": 25500,
+    "bsc": true,
+    "ba": true
+  },
+  {
+    "name": "Georg-August-Universität Göttingen",
+    "geokoordinaten": [51.5344, 9.9356],
+    "anzahl_studierenden": 22833,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Bergische Universität Wuppertal",
+    "geokoordinaten": [51.243, 7.1484],
+    "anzahl_studierenden": 23000,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Ruhr-Universität Bochum",
+    "geokoordinaten": [51.4455, 7.262],
+    "anzahl_studierenden": 41965,
+    "bsc": true,
+    "ba": true
+  },
+  {
+    "name": "Westfälische Wilhelms-Universität Münster",
+    "geokoordinaten": [51.9606, 7.6261],
+    "anzahl_studierenden": 44585,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Universität Vechta",
+    "geokoordinaten": [52.7287, 8.2829],
+    "anzahl_studierenden": 4000,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Universität zu Köln",
+    "geokoordinaten": [50.9271, 6.9319],
+    "anzahl_studierenden": 49250,
+    "bsc": true,
+    "ba": true
+  },
+  {
+    "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+    "geokoordinaten": [50.7358, 7.1006],
+    "anzahl_studierenden": 33200,
+    "bsc": true,
+    "ba": true
+  },
+  {
+    "name": "Universität Trier",
+    "geokoordinaten": [49.746, 6.6864],
+    "anzahl_studierenden": 11600,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Johannes Gutenberg-Universität Mainz",
+    "geokoordinaten": [49.9935, 8.2413],
+    "anzahl_studierenden": 31000,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Goethe-Universität Frankfurt",
+    "geokoordinaten": [50.1109, 8.6821],
+    "anzahl_studierenden": 43360,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Universität Heidelberg",
+    "geokoordinaten": [49.3988, 8.6724],
+    "anzahl_studierenden": 29890,
+    "bsc": true,
+    "ba": true
+  },
+  {
+    "name": "Eberhard Karls Universität Tübingen",
+    "geokoordinaten": [48.5216, 9.0576],
+    "anzahl_studierenden": 28159,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau",
+    "geokoordinaten": [49.4264, 7.7503],
+    "anzahl_studierenden": 14550,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Albert-Ludwigs-Universität Freiburg",
+    "geokoordinaten": [47.9959, 7.8522],
+    "anzahl_studierenden": 24240,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Katholische Universität Eichstätt-Ingolstadt",
+    "geokoordinaten": [48.8919, 11.1841],
+    "anzahl_studierenden": 4855,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "Universität Augsburg",
+    "geokoordinaten": [48.3665, 10.8985],
+    "anzahl_studierenden": 18890,
+    "bsc": true,
+    "ba": true
+  },
+  {
+    "name": "Julius-Maximilians-Universität Würzburg",
+    "geokoordinaten": [49.7872, 9.9361],
+    "anzahl_studierenden": 26780,
+    "bsc": false,
+    "ba": true
+  },
+  {
+    "name": "RWTH Aachen",
+    "geokoordinaten": [50.777, 6.0779],
+    "anzahl_studierenden": 45284,
+    "bsc": true,
+    "ba": false
+  },
+  {
+    "name": "LMU München",
+    "geokoordinaten": [48.1508, 11.5802],
+    "anzahl_studierenden": 52972,
+    "bsc": true,
+    "ba": false
+  }
+]

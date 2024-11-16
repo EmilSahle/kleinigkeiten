@@ -1,0 +1,53 @@
+/* Setze die Höhe und Breite der Karte auf feste Werte */
+#map { height: 550px; width: 450px;}
+
+/* Überschreibe Pico CSS für Leaflet-Marker */
+.leaflet-container .leaflet-marker-icon,
+.leaflet-container .leaflet-marker-shadow,
+.leaflet-container .leaflet-popup {
+    box-shadow: none !important; /* Entferne Box-Schatten */
+    background: transparent !important; /* Entferne Hintergrundfarbe */
+    border: none !important; /* Entferne jegliche Rahmen */
+}
+
+/* Grid Layout Styling */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Linke Spalte 1 Teil, rechte Spalte 1 Teil */
+    gap: 20px; /* Platz zwischen den Spalten */
+}
+
+/* Optionale Anpassungen für die Controls */
+.controls {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.controls label {
+    display: block;
+}
+
+div.controls label {
+    margin-bottom: 2px !important;
+}
+label {
+    margin-bottom: 0 !important;
+    display: inline-block !important;
+    line-height: 1 !important;
+}
+
+/* offensichtlich stören "PicoCss"-Angaben das Styling der "Leaflet"-Zoom-Buttons*/
+.leaflet-bar a {
+    font-size: 22px !important; /* Überschreibt die globale Schriftgröße */
+    line-height: 26px !important; /* Überschreibt die globale Zeilenhöhe */
+    text-align: center !important; /* Überschreibt die Ausrichtung */
+}
+
+.leaflet-bar a {
+    width: 30px;
+    height: 30px;
+    box-sizing: content-box; /* Option, um das Box-Modell zu ändern */
+}

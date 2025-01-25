@@ -46,15 +46,17 @@
             </div>
             
             <h2>Dokumentation</h2>
-            <p>Die Daten habe ich aus einer älteren Abgabe (filterbare HTML-Tabelle) übernommen, in JSON umgewandelt und mit weiteren Infos (z.B. den Geokoordinaten) angereichert</p>
-            <p>Die Leaflet-Karte und Checkboxen werden mit JS gesteuert. Das JS habe ich mit W3-Schools und einer langen Diskussion mit Chat-GPT entwickelt, manche Schritte gingen schnell, manchmal ist GPT aber in einer Sackgasse gelandet, wodurch die Marker nicht sichtbar waren. Ich habe deshalb die innere Funktionslogik des Scripts, tiefer verstehen müssen um eine Strategie zu entwickeln, die funktioniert. Die Logik ist jetzt diese: </p>
+          <p>Im Sommersemester 2024 habe ich im Rahmen des IT-Zertifikats der Philosophischen Fakultät der Universität zu Köln am Kurs "Tools and Methods in Digital Humanities" teilgenommen. 
+            Finale Kursaufgabe war ein eigenes Projekt: Baue eine Webseite, die externe JSON-Daten einliest und auf einer Leaflet-Karte anzeigt. Schalter, die mit Javascript gesteuert werden, sorgen für Dynamik.</p>p>     
+          <p>Die hier verwendeten Daten zu Geographie-Studiengängen an deutschen Universitäten habe ich aus einer älteren Abgabe (filterbare HTML-Tabelle) übernommen, in JSON umgewandelt und mit weiteren Infos (z.B. den Geokoordinaten der Uni-Städte) angereichert</p>
+            <p>Die Leaflet-Karte und Checkboxen werden mit JS gesteuert. Das JS habe ich ausgehend vom Kurs und dem W3-Schools-Tutorial in einer langen Diskussion mit Chat-GPT (3.5) entwickelt. Manche Schritte gingen dabei schnell, manchmal ist GPT aber in einer Sackgasse gelandet, wodurch z.B. die Marker nicht sichtbar waren. Ich habe deshalb die innere Funktionslogik des Scripts tiefer verstehen müssen um eine Strategie zu entwickeln, die wirklich funktioniert. Die Logik des SCripts ist jetzt diese: </p>
             <ul>
-                <li>Die JSON-Datei wird mit dem Befehl "fetch" in ein Array übertragen. Dadurch sind die Daten ein JS-Objekt, das direkt angesprochen werden kann. Das Array "allMarkers" enthält das Objekt "universitaeten", dass viele Objekte "universitaet" enthält. Für jedes Objekt "universitaet" wird noch die Eigenschaft "groesse" berechnet und hinzugefügt.</li>
+                <li>Die JSON-Datei wird mit dem Befehl "fetch" in ein Array übertragen. Dadurch sind die Daten ein JS-Objekt, das direkt angesprochen werden kann. Das Array "allMarkers" enthält das Objekt "universitaeten", dass viele Objekte "universitaet" enthält. Für jedes Objekt "universitaet" wird noch aus den Eingangsdaten (wo die absolute Studentenzahl einer Uni steht) die Eigenschaft "groesse" (als eine von vier Größenklassen) berechnet und hinzugefügt.</li>
                 <li>Die Funktion "addMarkers" löscht zuerst alle vielleicht schon bestehenden Marker und zeichnet in Abhängigkeit von den Schalterzuständen (gefiltert) die Marker auf die Karte. Diese Funktion wird initial einmal aufgerufen.</li>
-                <li> Wann immer sich der Zustand einer Checkbox ändert, rufen die Event-Listeners die Funktion "addMarkers" erneut auf. Dadurch werden alle Marker gelöscht und neu gezeichnet.</li>
+                <li>Wann immer sich der Zustand einer Checkbox ändert, rufen die Event-Listeners die Funktion "addMarkers" erneut auf. Dadurch werden alle Marker gelöscht und neu gezeichnet.</li>
             </ul>
-            <p> Für das grundsätzliche Design habe ich <a href="https://picocss.com/">Pico-CSS</a> verwendet um ein gleichmäßiges Design bei den Checkboxen und den Markern auf der Karte zu erreichen. Allerdings sorgte "Pico" in mehreren Fällen 
-            zu Problemen, so dass z.B. die Marker gar nicht mehr angezeigt wurden. Deshalb musste ich in css ein paar pico-Anweisungen überschreiben</p>
+            <p> Für das grundsätzliche Design der Seite habe ich <a href="https://picocss.com/">Pico-CSS</a> verwendet. Allerdings führte "Pico" in mehreren Fällen 
+            zu Problemen bei der Leaflet-Karte (so dass z.B. die Marker gar nicht mehr angezeigt wurden oder Buttons zu groß wurden), weil sich die jeweiligen CSS-Files in die Quere kamen. Deshalb musste ich in meiner eigenen CSS-Datei wiederum ein paar pico-Anweisungen überschreiben.</p>
             <p>Emil Sahle, September 2024</p>
 
         </div>

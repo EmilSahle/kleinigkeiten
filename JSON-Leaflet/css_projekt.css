@@ -1,6 +1,8 @@
 
 /* wir wollen manche pico-styles überschreiben */
-h1 {margin-top: 30px;}
+h1.seite {
+    margin-top: 30px;
+}
 
 
 /* ab hier überschreiben wir leaflet-styles */
